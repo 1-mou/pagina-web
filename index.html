@@ -219,7 +219,7 @@ button.slot small { display: block; font-size: 20px; color: var(--gray); }
 const CONFIG = {
   nombre: 'EURÍDICE',
   edad: 18,
-  de: 'Con cariño',
+  de: 'Con cariño, Mauri',
   mensaje: [
     'Eurídice, no sabía qué regalarte. Quería que fuera algo especial, porque cumples 18 y un cumpleaños así se merece mucho más que cualquier cosa hecha a la carrera.',
     'Por eso cada objeto de la caja lo pensé para ti: cosas que sabía que te iban a gustar y otras que sé que vas a necesitar en esta nueva etapa.',
@@ -235,12 +235,14 @@ const CONFIG = {
     ok: 'Identidad confirmada. Hola, Eurídice.',
     errores: ['Respuesta incorrecta. El sistema sospecha de ti.', 'Otra vez mal. Recuerda que eres Eurídice. Se asignó una pregunta nueva.', 'Sigue sin coincidir. Respira, piensa y vuelve a intentarlo.'],
     preguntas: [
-      { q: '¿Cómo se escribe tu nombre?', opts: ['Eurídice', 'Euridise', 'Eurídiz', 'Eurídece'], ok: 0 },
-      { q: '¿Cuántos años cumples?', opts: ['16', '17', '18', '19'], ok: 2 },
       { q: '¿Cuántas letras tiene tu nombre?', opts: ['6', '7', '8', '9'], ok: 2 },
-      { q: '¿Con qué letras empieza y termina tu nombre?', opts: ['A y E', 'E y E', 'U y C', 'E y I'], ok: 1 },
       { q: '¿Cuántas vocales tiene tu nombre?', opts: ['3', '4', '5', '6'], ok: 2 },
-      { q: '¿Qué molécula de seis carbonos se forma a partir del citrato mediante la acción de la enzima aconitasa en el ciclo de Krebs?', opts: ['Isocitrato', 'Alfa-cetoglutarato', 'Succinato', 'Oxaloacetato'], ok: 0 }
+      { q: '¿Qué molécula de seis carbonos se forma a partir del citrato mediante la acción de la enzima aconitasa en el ciclo de Krebs?', opts: ['Isocitrato', 'Alfa-cetoglutarato', 'Succinato', 'Oxaloacetato'], ok: 0 },
+      { q: '¿Qué ciudad de la selva frecuentas?', opts: ['Iquitos', 'Pucallpa', 'Tarapoto', 'Puerto Maldonado'], ok: 0 },
+      { q: '¿En qué ciudad naciste realmente?', opts: ['Huacho', 'Lima', 'Huaral', 'Barranca'], ok: 0 },
+      { q: '¿Cuál es tu profesor favorito de la academia?', opts: ['Valdivia', 'Eloy', 'Ruben', 'Fermin'], ok: 0 },
+      { q: '¿Qué pasó un 02 de noviembre de 2025?', opts: ['Nada XD', 'Me fui de viaje', 'Fallecí', 'Empecé la facultad'], ok: 2 },
+      { q: '¿Cómo te suele llamar Valdivia?', opts: ['Eurídice', 'Euri', 'Euridiche', 'Eu'], ok: 2 }
     ]
   },
   gates: [
